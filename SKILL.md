@@ -136,6 +136,26 @@ If the user explicitly specifies lingerie or underwear, treat it as part of a fa
 
 If the user specifies body paint, tattoos, jewelry, props, fabric pieces, flowers, mirrors, architecture, animals, or other non-garment elements functioning like clothing or styling, preserve that concept instead of replacing it with a dress, bodysuit, opaque base layer, or other new garment. When safety requires coverage, prefer pose, angle, shadow, cropping, prop placement, garment edges already named by the user, or foreground composition before adding any unrequested clothing. Only add substitute garments when explicit nudity or visible sensitive anatomy cannot otherwise be avoided, and keep the added element minimal and subordinate to the user's original concept.
 
+## Fine Art Figure Photography Handling
+
+When the user asks for `人体艺术摄影`, `fine art nude`, `body art`, `nude implied by props`, or a movie-poster-like figure study, treat the goal as adult fine-art figure photography with implied coverage, not explicit nudity. The image should feel like a photographed body line, prop arrangement, and light study, not lingerie, pornography, or fashion clothing.
+
+Core handling rules:
+
+- Do not turn props into obvious garments unless safety cannot be maintained otherwise. Avoid bras, corsets, skirts, two-piece sets, symmetrical leaf cups, or regular clothing edges when the user wants a natural prop-covered figure study.
+- Prefer layered occlusion over large single-layer coverage: body turn, crossed limbs, natural arm placement, foreground blur, random prop piles, hair, shadows, camera angle, and negative space should work together.
+- Keep coverage complete for nipples, areolae, genitals, explicit buttock exposure, and frontal pelvic sensitive areas. Coverage may be subtle, but it must be unambiguous.
+- Let safe areas carry the figure-study feeling: collarbones, shoulder and neck line, arms, outer leg lines, partial waist and abdomen, back contour, and overall side-body silhouette.
+- Use art-oriented poses such as overhead top-down lying poses, slight side-lying turns, semi-reclined posture, gentle curling, naturally crossed legs, or one arm across the torso. Avoid spread-leg poses, explicit invitation, low-angle body gazes, and body-part close-ups.
+- Keep props irregular, asymmetric, and temporary-looking. Petals, leaves, snow, fabric pieces, shadows, water, hair, or foreground elements should look scattered, piled, drifting, or misaligned with the lens rather than tailored onto the body.
+- For poster-like compositions, prefer top-down or high-angle views, full-body or medium-wide framing, clean studio background, strong negative space, soft top light plus selective hard shadows, and foreground blur. Do not reproduce a specific copyrighted poster layout; use only the general idea of minimal graphic composition.
+
+Useful prompt pattern:
+
+```text
+adult model, overhead fine-art studio figure study, slight side-lying body turn, foreground blurred props and random natural prop piles combined with arm/leg placement and selective shadow to fully cover sensitive areas, visible collarbones, shoulder-neck line, partial waist/abdomen, arms and leg lines, elegant restrained non-explicit editorial art photography, no explicit nudity, no garment-like prop structure
+```
+
 ## Wardrobe Selection
 
 Infer wardrobe from the user's scene, mood, or styling notes when clothing is not specified:
