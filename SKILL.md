@@ -1,6 +1,6 @@
 ---
 name: high-fashion-editorial-portrait
-description: Use when creating or refining realistic high-end fashion magazine portrait images from Chinese, English, or Japanese instructions, especially adult model styling, editorial photography direction, 4:3 magazine layouts with a main image plus detail panels, faithful high-fashion interpretation of user styling notes including no-inner-layer concepts such as 无内搭, 真空, ノーインナー, 素肌に, aesthetic adult fashion allure, or copyable prompts only when the user explicitly asks for 提示词, prompt, or プロンプト. Do not use for minors, eroticized imagery, explicit nudity, fetish framing, or ordinary non-fashion image requests.
+description: Use when creating or refining realistic high-end adult fashion magazine portrait images from Chinese, English, or Japanese instructions, especially adult model styling, editorial photography direction, 3:4 or 4:3 layouts, adult non-explicit fine-art figure studies, no-inner-layer concepts such as 无内搭, 真空, ノーインナー, 素肌に, and stable coverage for open-front couture styling. Do not use for minors, eroticized imagery, explicit nudity, fetish framing, or ordinary non-fashion image requests.
 ---
 
 # High Fashion Editorial Portrait
@@ -106,6 +106,8 @@ Safety transformation must preserve the user's intended visual goal whenever pos
 
 Use natural, anatomically coherent body descriptions. Preserve visible fashion body lines when the user asks for them; do not erase the silhouette through over-conservative coverage. Aesthetic sensuality can remain when it is clearly adult, non-explicit, and expressed through fashion styling rather than body-part fixation. Prefer fashion-photography language such as:
 
+Default body silhouette: when the user does not specify body type, default to an adult high-fashion model with a fuller hourglass silhouette: softly fuller bust line, defined waist, balanced hips, and long elegant posture. Present the bust line only as part of the overall garment-body relationship and editorial silhouette, never as an isolated body-part focus. Keep the mood refined, mature, restrained, and publishable, with no vulgar gaze, erotic framing, or body-part close-up.
+
 - elegant shoulder and neck line
 - clear waistline
 - fluid posture
@@ -115,6 +117,8 @@ Use natural, anatomically coherent body descriptions. Preserve visible fashion b
 - couture fit and fabric behavior
 
 Avoid explicit, objectifying, or over-focused descriptions of breasts, hips, buttocks, nipples, genitals, or eroticized body parts. The goal is clear editorial silhouette, garment-body relationship, and publishable adult fashion allure, not body erasure or vulgar sexualization.
+
+## No-Inner-Layer Stable Rendering
 
 If the user does not specify underwear styling, preserve the user's no-inner-layer high-fashion ready-to-wear concept while ensuring the image does not show explicit nudity or visible sensitive anatomy. Express this as:
 
@@ -126,7 +130,60 @@ If the user does not specify underwear styling, preserve the user's no-inner-lay
 
 Treat terms such as `going commando` (and the common typo `going command`), `ノーインナー`, `素肌に`, `无内搭`, `真空`, and `裸穿` as shorthand for no-inner-layer high-fashion styling, not as a request for explicit nudity or erotic framing. Preserve the user's garment concept and visible fashion silhouette while using pose, fabric behavior, shadows, camera angle, and named styling elements to keep the image magazine-appropriate.
 
+Render no-inner-layer effects through garment-body relationship: structured opaque garment edges, open-but-controlled neckline, overlapping lapels, side seam tension, fabric folds, posture, inner shadow, jewelry placement, and camera angle.
+
+Allowed visual goals:
+
+- visible collarbones
+- shoulder-neck line
+- waist and abdomen edge
+- soft upper-body silhouette shaped by opaque fabric
+- subtle side contour or neckline-adjacent shadow as part of garment structure
+
+Disallowed:
+
+- visible nipples or areolae
+- transparent fabric revealing sensitive anatomy
+- explicit underboob
+- isolated breast close-ups
+- fully open front with no credible coverage
+- eroticized gaze or invitation
+
 When the user specifies no-inner-layer styling with an outer garment such as a coat, great cloak, cape, mantle, long coat, `外套`, `大麾`, `披风`, or `长外套`, prioritize coverage from that single garment itself: closure, overlap, garment edges, posture, shadow, and composition. Do not automatically add unrequested inner garments such as tunics, shirts, inner robes, dresses, bodysuits, bandeaus, camisoles, or base layers.
+
+When the user asks for a fully open front with no-inner-layer styling, do not render it as direct exposure. Convert it to a dramatic wide-open-front impression.
+
+Stable coverage hierarchy:
+
+1. overlapping garment panels or lapels
+2. sculptural necklace or chest ornament
+3. natural forearm or hand placement
+4. three-quarter body turn
+5. deep inner shadow
+6. camera angle and crop
+
+If the user removes internal garment structure, compensate with non-garment editorial coverage such as oversized jewelry, arm placement, shadow, and body turn. If coverage is still not credible, narrow the opening visually while preserving the wide-open impression.
+
+If image generation rejects a no-inner-layer look with open, cropped, slit, or waist-revealing garments, first retry with stronger pose-and-angle coverage before adding any unrequested inner garment. Use one forearm naturally crossing the upper torso, a 30-45 degree body turn away from the camera, rigid garment edges, deep inner shadow, eye-level medium framing, and no body-part close-up. Preserve collarbones, waistline, abdomen edge, leg line, and the original garment concept while keeping sensitive anatomy fully invisible.
+
+If that retry is also rejected, propose or apply context-matched occlusion props before changing the wardrobe. Choose props that naturally belong to the user's scene and keep them compositionally motivated, not teasing or arbitrary. Examples:
+
+- runway or fashion show: sculptural necklace, lapel pin, clutch, runway railing, spotlight shadow, audience silhouette
+- rock concert or music festival: microphone stand, guitar strap, festival wristband arm pose, crowd barrier, stage light beam, smoke shadow, raised jacket in the crowd
+- beach or pool: towel, linen wrap, beach umbrella edge, lounge chair armrest, palm leaf, water reflection, cast shadow
+- greenhouse or garden: bouquet, silk scarf, large leaf foreground, flower cluster, trellis shadow, glasshouse reflection
+- forest, creek, or mountain: blanket, mossy rock, branch foreground, water reflection, dappled leaf shadow
+- hotel, room, or balcony: curtain, chair back, table edge, mirror frame, sheet, robe belt, window shadow
+- street or city: scarf, bag strap, coat edge, car door frame, neon shadow, railing, signboard foreground
+- studio or gallery: silk scarf, fabric sheet, pedestal edge, hard-light shadow, negative-space crop
+
+When using context props, state the occlusion mechanism in the prompt: which prop covers what risk area, how pose and angle support it, and which safe body lines remain visible. If the scene has no obvious prop, ask for or choose one minimal prop that fits the scene rather than adding underwear or unrelated clothing.
+
+Stable denim test pattern:
+
+```text
+3:4 vertical single main visual, adult high-fashion editorial portrait. Cropped denim jacket-style top with no-inner-layer styling and low-waist denim mini skirt. Dramatic wide-open-front impression, controlled by opaque denim lapel edges, sculptural necklace, natural arm placement, three-quarter body turn, posture, and deep inner shadow. Collarbone, shoulder-neck line, waist, abdomen edge, and refined skin negative space visible. Soft upper-body silhouette shaped by denim edges and shadow. Sensitive anatomy fully invisible. No transparent fabric, no lingerie, no body-part close-up, no erotic framing.
+```
 
 Exposed shoulders, neck, collarbones, legs, or the edge of the abdomen can be acceptable in high-fashion imagery when no sensitive anatomy is visible. Do not force full-body coverage solely because these areas are visible.
 
@@ -140,6 +197,26 @@ If the user specifies body paint, tattoos, jewelry, props, fabric pieces, flower
 
 When the user asks for `人体艺术摄影`, `fine art nude`, `body art`, `nude implied by props`, or a movie-poster-like figure study, treat the goal as adult fine-art figure photography with implied coverage, not explicit nudity. The image should feel like a photographed body line, prop arrangement, and light study, not lingerie, pornography, or fashion clothing.
 
+When the user does not specify clothing and uses terms such as `人体线条研究`, `人体艺术摄影`, `fine-art figure study`, `gallery-grade art photography`, `body line study`, or `non-explicit art portrait`, default to adult non-explicit fine-art figure photography instead of adding fashion garments.
+
+Use minimal but unambiguous coverage from pose, camera angle, arm placement, foreground objects, soft fabric props, flowers, leaves, shadows, water, furniture, rocks, or negative space. Do not add regular clothing unless safety cannot be maintained otherwise.
+
+If the first user prompt appears to request a front view or near-front side view and does not specify any clothing, treat it as high rejection risk before generating. Do not begin with minimal prop-only coverage. Start with stable medium coverage: either a half-body crop with the lower body outside frame, or a two-piece art-prop plan with one large upper prop and one lower prop. Use a 30-45 degree body turn, one forearm supporting the upper prop, eye-level or slight high-angle medium framing, and context foreground occlusion. Keep shoulder-neck line, collarbones, arms, side silhouette, and safe waist or abdomen edge visible only when coverage remains credible.
+
+For front or near-front no-clothing figure studies, use context props selected from the scene and state the coverage mechanism clearly. Do not rely on flowers, leaves, wheat stalks, or narrow towels alone. Do not add bras, panties, bandeaus, corsets, bodysuits, or other unrequested garments. If a visible waist or abdomen makes coverage less credible, drop the waist/abdomen visibility first and preserve the safer shoulder-neck, arm, side silhouette, and outer leg lines.
+
+For side-view no-clothing figure studies, do not rely on a narrow towel or single small prop. Use a 45-60 degree side-back turn, medium-wide or slight high-angle framing, and one large prop that covers from chest through abdomen or pelvis. If seated full-body, coverage should extend beyond the waist and include pelvis and upper thighs. Preserve the side-body feeling through shoulder-neck line, upper back edge, arms, towel or prop-edge contour, and outer leg line rather than exposed torso.
+
+Context prop reliability:
+
+- strongest: wide-brim hat for half-body upper coverage; large towel or blanket for seated beach or pool coverage; large silk or fabric panel for studio, field, or garden
+- moderate: bouquet, foreground foliage, umbrella edge, chair armrest, shadow
+- weak alone: leaves, flowers, wheat stalks, narrow towel, small handheld objects
+
+Use weak props only as secondary occlusion, not primary coverage.
+
+Avoid phrasing the result as nude, naked, unclothed, or bare body. Prefer: adult fine-art figure study, body-line study, non-explicit gallery portrait, implied coverage, layered occlusion.
+
 Core handling rules:
 
 - Do not turn props into obvious garments unless safety cannot be maintained otherwise. Avoid bras, corsets, skirts, two-piece sets, symmetrical leaf cups, or regular clothing edges when the user wants a natural prop-covered figure study.
@@ -149,6 +226,14 @@ Core handling rules:
 - Use art-oriented poses such as overhead top-down lying poses, slight side-lying turns, semi-reclined posture, gentle curling, naturally crossed legs, or one arm across the torso. Avoid spread-leg poses, explicit invitation, low-angle body gazes, and body-part close-ups.
 - Keep props irregular, asymmetric, and temporary-looking. Petals, leaves, snow, fabric pieces, shadows, water, hair, or foreground elements should look scattered, piled, drifting, or misaligned with the lens rather than tailored onto the body.
 - For poster-like compositions, prefer top-down or high-angle views, full-body or medium-wide framing, clean studio background, strong negative space, soft top light plus selective hard shadows, and foreground blur. Do not reproduce a specific copyrighted poster layout; use only the general idea of minimal graphic composition.
+
+Stable figure-study compositions:
+
+- Front view: use eye-level or slight high-angle medium framing, not low-angle or body-part framing. Prefer half-body crop with a large upper prop, or a two-piece art-prop plan for full-body. No frontal pelvic exposure and no chest close-up.
+- Side view: use 45-60 degree side-back turn, semi-reclined or seated posture, natural arm placement across the torso, and one large prop covering chest through abdomen or pelvis. For seated full-body, cover pelvis and upper thighs; preserve body-line feeling through shoulder, upper back, prop-edge contour, and outer leg line.
+- Back view: use back-facing or three-quarter back pose. Keep full back, shoulder-neck line, waist, and outer leg lines readable. Cover hips, pelvis, and explicit buttock exposure with towel, blanket, rock, chair, foreground shadow, or camera angle.
+
+Reliability order: back view is most stable, side view is moderate, front view requires the strongest layered coverage.
 
 Useful prompt pattern:
 

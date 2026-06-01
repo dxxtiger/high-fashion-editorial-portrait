@@ -1,6 +1,6 @@
 interface:
   display_name: "High Fashion Editorial Portrait"
-  short_description: "Magazine-grade adult fashion portrait direction"
-  default_prompt: "Use $high-fashion-editorial-portrait to create a realistic 4:3 high-end fashion magazine portrait from my styling notes."
+  short_description: "Adult fashion and figure-study direction"
+  default_prompt: "Use $high-fashion-editorial-portrait to create a realistic high-end adult fashion or non-explicit figure-study portrait from my styling notes."
 policy:
   allow_implicit_invocation: true
