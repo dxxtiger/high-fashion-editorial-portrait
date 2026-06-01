@@ -106,7 +106,12 @@ Safety transformation must preserve the user's intended visual goal whenever pos
 
 Use natural, anatomically coherent body descriptions. Preserve visible fashion body lines when the user asks for them; do not erase the silhouette through over-conservative coverage. Aesthetic sensuality can remain when it is clearly adult, non-explicit, and expressed through fashion styling rather than body-part fixation. Prefer fashion-photography language such as:
 
-Default body silhouette: when the user does not specify body type, default to an adult high-fashion model with a fuller hourglass silhouette: softly fuller bust line, defined waist, balanced hips, and long elegant posture. Present the bust line only as part of the overall garment-body relationship and editorial silhouette, never as an isolated body-part focus. Keep the mood refined, mature, restrained, and publishable, with no vulgar gaze, erotic framing, or body-part close-up.
+Body silhouette modes:
+
+- Default mode, slender balanced silhouette: when the user does not specify body type, or explicitly requests `纤细平衡体型`, `纤细平衡`, `slender balanced silhouette`, `slender balanced body`, `lean editorial silhouette`, `スレンダーでバランスの取れた体型`, or `細身でバランスのよい体型`, use an adult high-fashion editorial model with a lean torso, refined shoulder-neck line, modest natural bust line, defined but subtle waist, balanced hips, and long elegant posture. This mode is preferred for narrow hair-curtain, ribbon, leaf, snake, shadow, or other slim occlusion concepts because it keeps coverage credible and editorial.
+- Optional fuller mode, fuller hourglass silhouette: only when the user explicitly requests `丰润沙漏型`, `丰润沙漏`, `饱满沙漏型`, `fuller hourglass silhouette`, `curvy hourglass silhouette`, `fuller hourglass body`, `豊かな砂時計型`, or `ふくよかな砂時計型`, use an adult high-fashion model with a softly fuller bust line, defined waist, balanced hips, and long elegant posture. Present the bust line only as part of the overall garment-body relationship and editorial silhouette, never as an isolated body-part focus.
+
+In both modes, keep the mood refined, mature, restrained, and publishable, with no vulgar gaze, erotic framing, or body-part close-up.
 
 - elegant shoulder and neck line
 - clear waistline
