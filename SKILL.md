@@ -198,6 +198,23 @@ If the user explicitly specifies lingerie or underwear, treat it as part of a fa
 
 If the user specifies body paint, tattoos, jewelry, props, fabric pieces, flowers, mirrors, architecture, animals, or other non-garment elements functioning like clothing or styling, preserve that concept instead of replacing it with a dress, bodysuit, opaque base layer, or other new garment. When safety requires coverage, prefer pose, angle, shadow, cropping, prop placement, garment edges already named by the user, or foreground composition before adding any unrequested clothing. Only add substitute garments when explicit nudity or visible sensitive anatomy cannot otherwise be avoided, and keep the added element minimal and subordinate to the user's original concept.
 
+## Bathing and Hot Spring Scene Handling
+
+When the user mentions bathing-related settings or actions such as `温泉`, `浴室`, `浴池`, `澡堂`, `沐浴`, `泡澡`, `入浴`, `風呂`, `bath`, `bathroom`, `bath pool`, `bathing`, `hot spring`, `onsen`, or similar bathing context, treat the scene as adult non-explicit high-fashion or cinematic editorial imagery with implied coverage.
+
+For bathing scenes, do not automatically add unrequested garments such as bath wraps, robes, bandeaus, bras, underwear, gauze, tulle, veils, or sheer fabric. If the user did not request clothing, build coverage first from:
+
+1. natural arm placement and crossed or resting forearms
+2. body overlap between subjects, especially back-to-camera foreground placement
+3. high opaque water level
+4. dense opaque steam or fog
+5. bath edge, rocks, wood structures, towels as scene props only when requested or contextually minimal
+6. camera angle, medium crop, foreground framing, and negative space
+
+State the coverage mechanism clearly in the prompt: which arms, body overlap, waterline, steam, bath edge, or crop keeps sensitive anatomy fully invisible. Preserve safe visual goals such as faces, hair, necks, shoulders, hands, upper arms, collarbone suggestion, water texture, and atmospheric steam. If waist, abdomen, or torso visibility makes coverage less credible, reduce that visibility before adding clothing.
+
+If the composition remains unsafe after using arm posture, opaque steam, water height, and crop, choose a safer angle or tighter crop before adding any substitute garment. Add clothing only when the user explicitly requests it or when no non-garment coverage can keep the image publishable, and keep any added garment minimal, opaque, and subordinate to the bathing scene rather than turning it into lingerie or costume styling.
+
 ## Fine Art Figure Photography Handling
 
 When the user asks for `人体艺术摄影`, `fine art nude`, `body art`, `nude implied by props`, or a movie-poster-like figure study, treat the goal as adult fine-art figure photography with implied coverage, not explicit nudity. The image should feel like a photographed body line, prop arrangement, and light study, not lingerie, pornography, or fashion clothing.
