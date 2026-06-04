@@ -276,6 +276,21 @@ Read body-line beauty through stable visual cues rather than exposure:
 
 When the user asks for fewer conventional garments on a mythic figure, do not write it as nudity or exposure. Rewrite it as: "the character design is built from natural hair, living tails, pose, shadow, and sculptural framing rather than conventional costume layers." Preserve implied coverage from hair placement, tail placement, hand posture, body angle, foreground overlap, and cinematic shadow.
 
+When the user wants mythic elements to function as the character's clothing, treat the elements as living haute couture rather than as background props or random coverage. Weaken conventional garment language and organize the mythic element into a coherent wearable silhouette:
+
+- describe repeated tails, wings, hair, scales, feathers, vines, or fur as the primary living-couture garment
+- use fashion construction language: shoulder drape, deep-V fur lapels, open-back gown impression, waist wrap, hip panels, side slits, lap cover, train, cloak, sash, or sculptural gown edge
+- make the element continuous from shoulders to waist to legs when the user wants it to read as clothing, while keeping it outside the body and anchored from behind, side-back, or the floor
+- preserve visual allure through collarbones, shoulder-neck line, back curve, narrow waist impression, seated S-curve, and controlled leg line, not through direct exposure
+- keep sensitive anatomy fully invisible with opaque element edges, body angle, deep inner shadow, hair curtains, arm placement, foreground overlap, and paired-subject blocking
+- avoid making the element look like underwear, symmetrical cups, pasted-on censor shapes, or a chaotic pile; it should read as a deliberate high-fashion garment structure
+
+Useful prompt pattern:
+
+```text
+The conventional fabric costume is minimized and visually subordinate; the mythic elements are the primary living-couture garment. They connect into a continuous wearable structure from shoulders to waist to legs, with opaque sculptural edges imitating haute couture deep-V lapels, an open-back gown impression, waist wrap, hip panels, controlled side slits, lap cover, and floor-length train. Sensitive anatomy is fully invisible through body angle, overlapping element edges, hair curtains, deep inner shadow, elegant arm placement, and foreground overlap, while collarbones, shoulder-neck line, back curve, narrow waist impression, seated S-curve, and controlled leg line remain readable.
+```
+
 ## Kimono Collar and Back-Line Handling
 
 Use this for kimono, yukata, hanfu-like collars, period-drama robes, back-neck styling, nape lines, shoulder lines, and requests for shoulder-back elegance.
