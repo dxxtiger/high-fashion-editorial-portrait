@@ -89,11 +89,10 @@ Identify:
 Rewrite risky language into stable categories:
 
 - `减少衣物`, `不穿`, `裸`, `露出`, `敏感部位` -> character design, implied coverage, body-line readability, negative space, pose and light control
-- `滑落`, `衣襟散开`, `露肩背` -> structured collar height, graceful nape curve, clean shoulder line, opaque couture fabric
 - `亲密依偎`, `挑逗`, `诱惑` -> quiet protective tableau, tender protective mood, eyes clearly meeting, soft peaceful expressions
 - body exposure goals -> shoulder-neck line, long arms, narrow waist impression, seated S-curve, garment-body relationship, clean silhouette
 
-Do not show this internal rewrite unless the user asks for a prompt. After generating, give a short key-modification note, for example: "I rewrote slipping-collar language into a structured low back collar, and used hair, tails, pose, foreground overlap, and candlelit shadow for implied coverage."
+Do not show this internal rewrite unless the user asks for a prompt. After generating, give a short key-modification note, for example: "I used hair, tails, pose, foreground overlap, and candlelit shadow for implied coverage while preserving the user's styling concept."
 
 ## Safety and Model Rules
 
@@ -290,30 +289,6 @@ Useful prompt pattern:
 ```text
 The conventional fabric costume is minimized and visually subordinate; the mythic elements are the primary living-couture garment. They connect into a continuous wearable structure from shoulders to waist to legs, with opaque sculptural edges imitating haute couture deep-V lapels, an open-back gown impression, waist wrap, hip panels, controlled side slits, lap cover, and floor-length train. Sensitive anatomy is fully invisible through body angle, overlapping element edges, hair curtains, deep inner shadow, elegant arm placement, and foreground overlap, while collarbones, shoulder-neck line, back curve, narrow waist impression, seated S-curve, and controlled leg line remain readable.
 ```
-
-## Kimono Collar and Back-Line Handling
-
-Use this for kimono, yukata, hanfu-like collars, period-drama robes, back-neck styling, nape lines, shoulder lines, and requests for shoulder-back elegance.
-
-Avoid direct slipping or exposure language such as:
-
-- collar slipping
-- clothes falling open
-- exposed back
-- exposed shoulders
-- revealing shoulder blades
-
-Rewrite into structured wardrobe language:
-
-- opaque embroidered silk kimono
-- refined period-drama styling
-- back collar set slightly lower than a standard kimono collar
-- neat and structured collar height
-- graceful nape curve
-- clean shoulder line
-- high enough to cover the shoulder blades
-
-For a safer version, use "only slightly lower than a standard kimono collar." For a stronger but still controlled version, use "carefully adjusted low back collar height." Keep the garment secure, opaque, and couture-like, and let the shoulder-back beauty read from collar geometry, head turn, posture, and rim light rather than exposure.
 
 ## Two-Subject Cinematic Intimacy Handling
 
