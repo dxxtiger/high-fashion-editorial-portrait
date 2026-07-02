@@ -125,17 +125,37 @@ Avoid wording that reinforces an inner-layer prior:
 - open-front fashion outer layer
 - not emphasizing layers
 
-## Traditional Garment Structure Lock
+## Functional Garment Construction Lock
 
-For traditional garments, preserve their functional construction unless the user asks for reinterpretation. State the physically plausible structure before adding fashion language.
+When the user specifies a garment, prop-as-garment, traditional clothing, living-couture element, or non-garment styling structure, preserve its physically plausible construction before adding fashion reinterpretation. Do not let editorial styling language turn a functional object into an implausible cutout, broken cape, random opening, unrelated layered outfit, lingerie substitute, armor, bodice, jacket, shawl, or cape unless the user asks for that transformation.
 
-For straw rain cape / 蓑衣:
+First identify:
 
-- describe it as a complete one-piece back-drape straw-rain-cape structure
-- keep continuous coverage across shoulders and back
-- let grass strands fall from the shoulder line, back, and sides
-- allow irregularity at the front edge and hem only
-- do not reinterpret it as a broken-back cape, open-back cutout, fashion shawl, modern jacket, or separate inner-and-outer outfit
+- what part of the body the structure is supposed to cover or frame
+- where it is continuous
+- where openings, slits, loose edges, or irregular hems are plausible
+- whether it is an outer layer, the only visible garment, or a non-garment styling element
+- which parts must not be reinterpreted as another garment category
+
+Use positive construction language before aesthetic language:
+
+- continuous shoulder-to-back structure
+- one-piece drape
+- attached from shoulder line
+- side openings only
+- irregular hem only
+- front overlap only
+- no broken back opening unless requested
+- no extra inner garment unless requested
+
+When a model has already produced a structural error, repair only the failed structure:
+
+- unwanted inner layer -> define the item as the only visible garment structure
+- impossible back opening -> define continuous back construction
+- random cutouts -> specify where openings are allowed
+- prop turned into underwear -> describe it as external styling, not fitted garment pieces
+
+Example: for straw rain cape / 蓑衣, describe a complete one-piece back-drape straw structure with continuous shoulder and back coverage, grass strands falling from the shoulder line, back, and sides, irregular front edge and hem only, and no broken-back cape or open-back cutout.
 
 ## Generation Feedback Repair Mode
 
